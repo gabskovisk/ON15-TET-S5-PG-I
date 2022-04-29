@@ -29,6 +29,6 @@ class dnaTranscriber {
 const transcriber1 = new dnaTranscriber("ATGCCGAAATTTGCG")
 
 console.log("Sequência DNA --------------")
-console.log(transcriber1.arrDna)
+console.log(transcriber1.arrDna.join(""))
 console.log("Transcrição para RNA -------")
 console.log(transcriber1.transcribe())
